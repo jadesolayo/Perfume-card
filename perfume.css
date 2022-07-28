@@ -131,12 +131,21 @@ svg {
     padding: 13px 53px;
   }
 }
-@media only screen and (max-height: 720px) {
+@media only screen and (max-height: 720px) and (max-width: 540px){
   .add-to-cart-btn {
     padding: 13px 50px;
   }
   .card-container {
     width: 53vw;
     height: 93vh;
+  }
+}
+@media only screen and (max-height: 640px) and (max-width: 360px){
+  .add-to-cart-btn {
+    padding: 13px 50px;
+  }
+  .card-container {
+    width: 75vw;
+    height: 100vh;
   }
 }
