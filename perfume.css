@@ -23,10 +23,11 @@
 .image-container1 {
   background-image: url("./image-product-desktop.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   width: 50%;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
+
 }
 .text-container {
   width: 50%;
