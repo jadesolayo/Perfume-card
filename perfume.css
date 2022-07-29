@@ -123,11 +123,15 @@ svg {
   .image-container2 {
     display: none;
   }
+ 
 }
 @media only screen and (max-width: 360px) {
   .add-to-cart-btn {
     padding: 13px 45px;
   }
+  .card-container{
+  width:80vw;
+ }
 }
 @media only screen and (max-width: 375px) {
   .add-to-cart-btn {
